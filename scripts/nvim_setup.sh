@@ -10,6 +10,7 @@ sudo apt-get install golang
 
 # Install prerequisite tools
 sudo apt-get install unzip
+sudp apt-get install npm
 
 # tmux (installing 3.3a manually)
 #
