@@ -29,6 +29,8 @@ sudo apt install golang
 sudo apt install libevent-dev
 sudo apt install pkg-config
 sudo apt install ncurses-dev
+git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
+
 
 # Pull tmux 3.3a and install
 wget https://github.com/tmux/tmux/releases/download/3.3a/tmux-3.3a.tar.gz
