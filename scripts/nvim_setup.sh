@@ -12,7 +12,7 @@ sudo apt install curl
 # Pull nvim 0.9.2 release and install
 wget https://github.com/neovim/neovim/releases/download/v0.9.2/nvim-linux64.tar.gz
 tar xzvf nvim-linux64.tar.gz
-ln -s ./nvim-linux64/bin/nvim /usr/bin/nvim
+sudo cp -s ./nvim-linux64/bin/nvim /usr/bin/nvim
 rm nvim-linux64.tar.gz
 
 # Pull down neovim plugin manager (Packer)
@@ -36,4 +36,5 @@ tar -xzvf tmux-3.3a.tar.gz
 cd tmux-3.3a
 ./configure
 make && sudo make install
+cd
 rm tmux-3.3a.tar.gz
