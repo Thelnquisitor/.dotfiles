@@ -12,7 +12,7 @@ sudo apt install curl
 # Pull nvim 0.9.2 release and install
 wget https://github.com/neovim/neovim/releases/download/v0.9.2/nvim-linux64.tar.gz
 tar xzvf nvim-linux64.tar.gz
-sudo cp -s ./nvim-linux64/bin/nvim /usr/bin/nvim
+sudo ln -s ~/nvim-linux64/bin/nvim /usr/bin
 rm nvim-linux64.tar.gz
 
 # Pull down neovim plugin manager (Packer)
