@@ -38,3 +38,9 @@ cd tmux-3.3a
 make && sudo make install
 cd
 rm tmux-3.3a.tar.gz
+
+# Install JetBrains nerdfont
+wget https://github.com/ryanoasis/nerd-fonts/releases/download/v2.1.0/JetBrainsMono.zip
+unzip JetBrainsMono.zip
+sudo mv *.ttf /usr/local/share/fonts
+fc-cache -fv
