@@ -6,7 +6,7 @@ sudo apt upgrade
 
 # Install prerequisite tools
 sudo apt install unzip
-sudp apt install npm
+sudo apt install npm
 sudo apt install curl
 
 # Pull nvim 0.9.2 release and install
