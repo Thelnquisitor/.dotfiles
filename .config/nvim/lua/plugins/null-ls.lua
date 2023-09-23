@@ -11,7 +11,6 @@ local format_on_save = function(client, bufnr)
             group = augroup,
             buffer = bufnr,
             callback = function()
-                print("Woooo")
                 vim.lsp.buf.format({ bufnr = bufnr })
             end,
         })

@@ -24,3 +24,5 @@ local ensure_installed = function()
 end
 
 ensure_installed()
+
+require('mason').setup()
